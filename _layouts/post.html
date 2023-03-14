@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    <title>Bloggen: {{page.title}}</title>
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
 
     {% include header.html %}
 
+    <h3>En blogg om programmering</h3>
+
     {{content}}
 
     {% include footer.html %}
-
-    <img src="/assets/images/Jekyll_Logo.png" alt="Jekyll logotype">
 
 </body>
 </html>
